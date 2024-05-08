@@ -4,5 +4,4 @@ obj/
 **/__pycache__
 .ipynb_checkpoints/
 *.pyc
-*.csv
 .DS_Store
