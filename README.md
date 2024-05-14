@@ -6,22 +6,22 @@ Also contains the pre-computed digitized contours for reusing them elsewhere.
 
 ## Contents
 ```
-   README.md           				    The file that you are reading
-   ImportingDigitizedContours.ipnyb  Jupyter notebook to import and plot pre-computed contours of neutrino lifetimes
-   PlottingScript.ipnyb     		    Jupyter notebook to extract contours of neutrino lifetimes and make Figs. 5, 6 of the paper
-   digitized_contours/               Contains the 95% C.L. pre-computed contours of $\tau_3/m_3$ vs.~$\tau_2/m_2$
-      .../diffuse_contours/          Bounds extracted from the diffuse neutrino flux
-      .../ngc1068_contours/          Bounds extracted from the neutrino flux from NGC1068
-   likelihood_data/                  Contains the pre-compute likelihood from which to derive lifetime contours
-      .../diffuse_contours/          Likelihood for the diffuse neutrino flux
-      .../ngc1068_contours/          Likelihood for the neutrino flux from NGC1068
+   README.md           				   The file that you are reading
+   ImportingDigitizedContours.ipnyb Notebook to import and plot pre-computed contours of neutrino lifetimes
+   PlottingScript.ipnyb     		   Notebook to extract contours of neutrino lifetimes and make Figs. 5, 6 of the paper
+   digitized_contours/              Contains the 95% C.L. pre-computed contours of $\tau_3/m_3$ vs.~$\tau_2/m_2$
+      .../diffuse_contours/         Bounds extracted from the diffuse neutrino flux
+      .../ngc1068_contours/         Bounds extracted from the neutrino flux from NGC1068
+   likelihood_data/                 Contains the pre-compute likelihood from which to derive lifetime contours
+      .../diffuse_contours/         Likelihood for the diffuse neutrino flux
+      .../ngc1068_contours/         Likelihood for the neutrino flux from NGC1068
 ```
 
 ## How to use the code
 
 ### To import the pre-computed neutrino lifetime contours
 
-The 95% C.L. pre-computed contours of disfavored $\tau_3/m_3$ vs.~$\tau_2/m_2$ shown in Figs. 5 and 6 of XXXX.XXXXX are stored in the folder `digitized_contours/`. Open the notebook `ImportingDigitizedContours.ipynb` to find how to import and plot them. This notebook simply __plots__ the pre-computed contours; to __generate__ them, see below.
+The 95% C.L. pre-computed contours of disfavored $\tau_3/m_3$ vs. $\tau_2/m_2$ shown in Figs. 5 and 6 of XXXX.XXXXX are stored in the folder `digitized_contours/`. Open the notebook `ImportingDigitizedContours.ipynb` to find how to import and plot them. This notebook simply __plots__ the pre-computed contours; to __generate__ them, see below.
 
 ### To generate new neutrino lifetime contours
 
