@@ -25,7 +25,7 @@ The 95% C.L. pre-computed contours of disfavored $\tau_3/m_3$ vs. $\tau_2/m_2$ s
 
 ### To generate new neutrino lifetime contours
 
-The notebook `PlottingScript.ipnyb` contains code to generate the contours of disfavored $\tau_3/m_3$ vs.~$\tau_2/m_2$ using the pre-computed likelihood data stored in the folder `likelihood_data/`.  By default, the code generates the contours at 95% C.L., but the user can change this.
+The notebook `PlottingScript.ipnyb` contains code to generate the contours of disfavored $\tau_3/m_3$ vs. $\tau_2/m_2$ using the pre-computed likelihood data stored in the folder `likelihood_data/`.  By default, the code generates the contours at 95% C.L., but the user can change this.
 
 This notebook also contains code to generate Figs. 5 and 6 of XXXX.XXXX.
 
