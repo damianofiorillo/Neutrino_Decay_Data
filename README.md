@@ -6,15 +6,15 @@ Also contains the pre-computed digitized contours for reusing them elsewhere.
 
 ## Contents
 ```
-   README.md           				   The file that you are reading
-   ImportingDigitizedContours.ipnyb Notebook to import and plot pre-computed contours of neutrino lifetimes
-   PlottingScript.ipnyb     		   Notebook to extract contours of neutrino lifetimes and make Figs. 5, 6 of the paper
-   digitized_contours/              Contains the 95% C.L. pre-computed contours of $\tau_3/m_3$ vs.~$\tau_2/m_2$
-      .../diffuse_contours/         Bounds extracted from the diffuse neutrino flux
-      .../ngc1068_contours/         Bounds extracted from the neutrino flux from NGC1068
-   likelihood_data/                 Contains the pre-compute likelihood from which to derive lifetime contours
-      .../diffuse_contours/         Likelihood for the diffuse neutrino flux
-      .../ngc1068_contours/         Likelihood for the neutrino flux from NGC1068
+   README.document            The file that you are reading
+   ImportContours.ipnyb       Notebook to import and plot pre-computed contours of neutrino lifetimes
+   PlottingScript.ipnyb       Notebook to extract contours of neutrino lifetimes and make Figs. 5, 6 of the paper
+   digitized_contours/        Contains the 95% C.L. pre-computed contours of $\tau_3/m_3$ vs.~$\tau_2/m_2$
+      .../diffuse_contours/   Bounds extracted from the diffuse neutrino flux
+      .../ngc1068_contours/   Bounds extracted from the neutrino flux from NGC1068
+   likelihood_data/           Contains the pre-compute likelihood from which to derive lifetime contours
+      .../diffuse_contours/   Likelihood for the diffuse neutrino flux
+      .../ngc1068_contours/   Likelihood for the neutrino flux from NGC1068
 ```
 
 ## How to use the code
