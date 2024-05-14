@@ -7,6 +7,7 @@ Also contains the pre-computed digitized contours for reusing them elsewhere.
 ## Contents
 ```
    README.md               The file that you are reading
+   matplotlibrc            Matplotlib resource file for plotting
    ImportContours.ipnyb    Notebook to import and plot pre-computed contours of lifetimes
    PlottingScript.ipnyb    Notebook to extract contours of lifetimes
    digitized_contours/     Contains the 95% C.L. pre-computed contours of lifetimes
